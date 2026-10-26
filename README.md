@@ -24,16 +24,14 @@ The imputation experiment found that nearest-neighbour and model-based imputatio
 
 ## Run the analysis
 
-Create an environment with the pinned dependencies and open the main notebook:
+Create an environment, install the libraries used by the notebooks, and open the main notebook:
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+pip install jupyterlab numpy pandas matplotlib seaborn scikit-learn imbalanced-learn xgboost optuna
 jupyter lab ID5059_P2_Final.ipynb
 ```
-
-The dependency snapshot targets Python 3.11-era packages and includes Jupyter, pandas, scikit-learn, imbalanced-learn, XGBoost, TensorFlow, and visualization libraries.
 
 ## Project status
 
